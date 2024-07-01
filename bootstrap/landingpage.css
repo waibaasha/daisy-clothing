@@ -1,0 +1,190 @@
+/* image 1 */
+
+box-sizing: border-box;
+
+position: absolute;
+width: 638px;
+height: 910px;
+left: 992px;
+top: 0px;
+
+background: url(image.png);
+
+
+/* DAISYCLOTHING */
+
+position: absolute;
+width: 388px;
+height: 75px;
+left: 346px;
+top: 26px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 50px;
+line-height: 75px;
+/* identical to box height */
+
+color: #F7F046;
+
+
+
+/* Home */
+
+position: absolute;
+width: 60px;
+height: 30px;
+left: 21px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* New Arrivals */
+
+position: absolute;
+width: 122px;
+height: 30px;
+left: 122px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Sales */
+
+position: absolute;
+width: 54px;
+height: 30px;
+left: 292px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Discounts */
+
+position: absolute;
+width: 98px;
+height: 30px;
+left: 387px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+
+/* Line 1 */
+
+position: absolute;
+width: 992px;
+height: 0px;
+left: 0px;
+top: 127px;
+
+border: 4px solid #000000;
+transform: rotate(-0.17deg);
+
+
+/* Crafted to seamlessly blend fashion with function. */
+
+position: absolute;
+width: 594px;
+height: 376px;
+left: 49px;
+top: 306px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 96px;
+
+color: #FFFFFF;
+
+
+
+/* Rectangle 1 */
+
+position: absolute;
+width: 344px;
+height: 76px;
+left: 51px;
+top: 729px;
+
+background: #FFFFFF;
+border-radius: 100px;
+
+
+/* SHOP NOW */
+
+position: absolute;
+width: 251px;
+height: 68px;
+left: 95px;
+top: 737px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 68px;
+/* identical to box height */
+text-align: center;
+
+color: #000000;
+
+
+
+/* Cart */
+
+position: absolute;
+width: 44px;
+height: 30px;
+left: 514px;
+top: 152px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+color: #FFFFFF;
+.pic{
+    height: 910px;
+    width: 638px;
+}
