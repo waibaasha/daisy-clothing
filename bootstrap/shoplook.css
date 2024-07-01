@@ -1,0 +1,49 @@
+/* Custom styles for the shop section */
+.shop-section {
+    background-color: #286c72; /* Matches the teal background color */
+    color: white; /* Text color */
+    padding: 30px 0; /* Padding for top and bottom */
+}
+
+.shop-title {
+    text-align: center; /* Center the text */
+    margin-bottom: 30px; /* Space below the title */
+}
+
+.product-card {
+    background-color: #fff; /* White background for cards */
+    color: #000; /* Black text color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow for cards */
+    overflow: hidden; /* Ensure content stays within the card */
+    margin-bottom: 30px; /* Space below cards */
+    transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Slightly larger on hover */
+}
+
+.product-img {
+    width: 100%; /* Full width image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-info {
+    padding: 15px; /* Padding inside the card */
+    text-align: center; /* Center align text */
+}
+
+.btn-add-to-cart {
+    background-color: #444; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 20px; /* Padding for the button */
+    font-size: 16px; /* Font size for the button text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn-add-to-cart:hover {
+    background-color: #333; /* Darker background on hover */
+}

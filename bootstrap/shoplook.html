@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop The Look</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
+    <style>
+        .shop-section {
+            background-color: #286c72; 
+            color: white; 
+            padding: 30px 0; 
+        }
+        .shop-title {
+            text-align: center; 
+            margin-bottom: 30px;
+        }
+        .product-card {
+            background-color: #fff; 
+            color: #000; 
+            border-radius: 10px; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+            overflow: hidden; 
+            margin-bottom: 30px; 
+            transition: transform 0.3s; 
+        }
+        .product-card:hover {
+            transform: scale(1.05); 
+        }
+        .product-img {
+            width: 100%; 
+            height: auto; 
+        }
+        .product-info {
+            padding: 15px; 
+            text-align: center; 
+        }
+        .btn-add-to-cart {
+            background-color: #444; 
+            color: white; 
+            border: none; 
+            padding: 10px 20px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            transition: background-color 0.3s; 
+        }
+        .btn-add-to-cart:hover {
+            background-color: #333;
+        }
+    </style>
+</head>
+<body style="background-color: #286c72; ">
+    <div class="container shop-section">
+        <h2 class="shop-title">Shop The Look.</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c:\Users\Lenovo\Downloads\image 7.png" alt="3pc set (pure cotton)" class="product-img">
+                    <div class="product-info">
+                        <h5>3pc set (pure cotton)</h5>
+                        <p>₹ 2500</p>
+                        <button class="btn-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c:\Users\Lenovo\Downloads\image 8.png" alt="Minimal Red Print" class="product-img">
+                    <div class="product-info">
+                        <h5>Minimal Red Print</h5>
+                        <p>₹ 1500</p>
+                        <button class="btn-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="product-card">
+                    <img src="c:\Users\Lenovo\Downloads\image 9.png" alt="Back Print Tee" class="product-img">
+                    <div class="product-info">
+                        <h5>Back Print Tee</h5>
+                        <p>₹ 1500</p>
+                        <button class="btn-add-to-cart">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
